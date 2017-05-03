@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		011182F51EB81DFC0079DDD0 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 011182F41EB81DFC0079DDD0 /* Readme.md */; };
+		011182FC1EB81EDF0079DDD0 /* UIColor+ZKColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 011182F81EB81EDE0079DDD0 /* UIColor+ZKColor.m */; };
+		011182FD1EB81EDF0079DDD0 /* ZKNotificationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 011182FB1EB81EDF0079DDD0 /* ZKNotificationView.m */; };
+		017E1A491EB42AF700CC8D84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 017E1A481EB42AF700CC8D84 /* main.m */; };
+		017E1A4C1EB42AF700CC8D84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 017E1A4B1EB42AF700CC8D84 /* AppDelegate.m */; };
+		017E1A4F1EB42AF700CC8D84 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 017E1A4E1EB42AF700CC8D84 /* ViewController.m */; };
+		017E1A521EB42AF700CC8D84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 017E1A501EB42AF700CC8D84 /* Main.storyboard */; };
+		017E1A541EB42AF700CC8D84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 017E1A531EB42AF700CC8D84 /* Assets.xcassets */; };
+		017E1A571EB42AF700CC8D84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 017E1A551EB42AF700CC8D84 /* LaunchScreen.storyboard */; };
+		017E1A621EB42AF700CC8D84 /* ZKNSNotificationViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 017E1A611EB42AF700CC8D84 /* ZKNSNotificationViewTests.m */; };
+		017E1A6D1EB42AF700CC8D84 /* ZKNSNotificationViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 017E1A6C1EB42AF700CC8D84 /* ZKNSNotificationViewUITests.m */; };
+		017E1A841EB4871800CC8D84 /* APP.png in Resources */ = {isa = PBXBuildFile; fileRef = 017E1A831EB4871800CC8D84 /* APP.png */; };
+		5C6985061EB4BE07008B02BE /* ZKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6985051EB4BE07008B02BE /* ZKViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		017E1A5E1EB42AF700CC8D84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 017E1A3C1EB42AF600CC8D84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 017E1A431EB42AF600CC8D84;
+			remoteInfo = ZKNSNotificationView;
+		};
+		017E1A691EB42AF700CC8D84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 017E1A3C1EB42AF600CC8D84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 017E1A431EB42AF600CC8D84;
+			remoteInfo = ZKNSNotificationView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		011182F41EB81DFC0079DDD0 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		011182F71EB81EDE0079DDD0 /* UIColor+ZKColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZKColor.h"; sourceTree = "<group>"; };
+		011182F81EB81EDE0079DDD0 /* UIColor+ZKColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZKColor.m"; sourceTree = "<group>"; };
+		011182F91EB81EDE0079DDD0 /* ZKNotificationDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKNotificationDefine.h; sourceTree = "<group>"; };
+		011182FA1EB81EDF0079DDD0 /* ZKNotificationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKNotificationView.h; sourceTree = "<group>"; };
+		011182FB1EB81EDF0079DDD0 /* ZKNotificationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKNotificationView.m; sourceTree = "<group>"; };
+		017E1A441EB42AF600CC8D84 /* ZKNSNotificationView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZKNSNotificationView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		017E1A481EB42AF700CC8D84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		017E1A4A1EB42AF700CC8D84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		017E1A4B1EB42AF700CC8D84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		017E1A4D1EB42AF700CC8D84 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		017E1A4E1EB42AF700CC8D84 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		017E1A511EB42AF700CC8D84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		017E1A531EB42AF700CC8D84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		017E1A561EB42AF700CC8D84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		017E1A581EB42AF700CC8D84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		017E1A5D1EB42AF700CC8D84 /* ZKNSNotificationViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZKNSNotificationViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		017E1A611EB42AF700CC8D84 /* ZKNSNotificationViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKNSNotificationViewTests.m; sourceTree = "<group>"; };
+		017E1A631EB42AF700CC8D84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		017E1A681EB42AF700CC8D84 /* ZKNSNotificationViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZKNSNotificationViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		017E1A6C1EB42AF700CC8D84 /* ZKNSNotificationViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKNSNotificationViewUITests.m; sourceTree = "<group>"; };
+		017E1A6E1EB42AF700CC8D84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		017E1A831EB4871800CC8D84 /* APP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = APP.png; sourceTree = "<group>"; };
+		5C6985041EB4BE07008B02BE /* ZKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKViewController.h; sourceTree = "<group>"; };
+		5C6985051EB4BE07008B02BE /* ZKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		017E1A411EB42AF600CC8D84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		017E1A5A1EB42AF700CC8D84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		017E1A651EB42AF700CC8D84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		011182F61EB81E950079DDD0 /* ZKNotificationView */ = {
+			isa = PBXGroup;
+			children = (
+				011182F71EB81EDE0079DDD0 /* UIColor+ZKColor.h */,
+				011182F81EB81EDE0079DDD0 /* UIColor+ZKColor.m */,
+				011182F91EB81EDE0079DDD0 /* ZKNotificationDefine.h */,
+				011182FA1EB81EDF0079DDD0 /* ZKNotificationView.h */,
+				011182FB1EB81EDF0079DDD0 /* ZKNotificationView.m */,
+			);
+			path = ZKNotificationView;
+			sourceTree = "<group>";
+		};
+		017E1A3B1EB42AF600CC8D84 = {
+			isa = PBXGroup;
+			children = (
+				017E1A461EB42AF600CC8D84 /* ZKNSNotificationView */,
+				017E1A601EB42AF700CC8D84 /* ZKNSNotificationViewTests */,
+				017E1A6B1EB42AF700CC8D84 /* ZKNSNotificationViewUITests */,
+				017E1A451EB42AF600CC8D84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		017E1A451EB42AF600CC8D84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				017E1A441EB42AF600CC8D84 /* ZKNSNotificationView.app */,
+				017E1A5D1EB42AF700CC8D84 /* ZKNSNotificationViewTests.xctest */,
+				017E1A681EB42AF700CC8D84 /* ZKNSNotificationViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		017E1A461EB42AF600CC8D84 /* ZKNSNotificationView */ = {
+			isa = PBXGroup;
+			children = (
+				011182F61EB81E950079DDD0 /* ZKNotificationView */,
+				017E1A4A1EB42AF700CC8D84 /* AppDelegate.h */,
+				017E1A4B1EB42AF700CC8D84 /* AppDelegate.m */,
+				017E1A4D1EB42AF700CC8D84 /* ViewController.h */,
+				017E1A4E1EB42AF700CC8D84 /* ViewController.m */,
+				5C6985041EB4BE07008B02BE /* ZKViewController.h */,
+				5C6985051EB4BE07008B02BE /* ZKViewController.m */,
+				017E1A501EB42AF700CC8D84 /* Main.storyboard */,
+				017E1A531EB42AF700CC8D84 /* Assets.xcassets */,
+				017E1A831EB4871800CC8D84 /* APP.png */,
+				017E1A551EB42AF700CC8D84 /* LaunchScreen.storyboard */,
+				017E1A581EB42AF700CC8D84 /* Info.plist */,
+				017E1A471EB42AF700CC8D84 /* Supporting Files */,
+			);
+			path = ZKNSNotificationView;
+			sourceTree = "<group>";
+		};
+		017E1A471EB42AF700CC8D84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				017E1A481EB42AF700CC8D84 /* main.m */,
+				011182F41EB81DFC0079DDD0 /* Readme.md */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		017E1A601EB42AF700CC8D84 /* ZKNSNotificationViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				017E1A611EB42AF700CC8D84 /* ZKNSNotificationViewTests.m */,
+				017E1A631EB42AF700CC8D84 /* Info.plist */,
+			);
+			path = ZKNSNotificationViewTests;
+			sourceTree = "<group>";
+		};
+		017E1A6B1EB42AF700CC8D84 /* ZKNSNotificationViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				017E1A6C1EB42AF700CC8D84 /* ZKNSNotificationViewUITests.m */,
+				017E1A6E1EB42AF700CC8D84 /* Info.plist */,
+			);
+			path = ZKNSNotificationViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		017E1A431EB42AF600CC8D84 /* ZKNSNotificationView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 017E1A711EB42AF700CC8D84 /* Build configuration list for PBXNativeTarget "ZKNSNotificationView" */;
+			buildPhases = (
+				017E1A401EB42AF600CC8D84 /* Sources */,
+				017E1A411EB42AF600CC8D84 /* Frameworks */,
+				017E1A421EB42AF600CC8D84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZKNSNotificationView;
+			productName = ZKNSNotificationView;
+			productReference = 017E1A441EB42AF600CC8D84 /* ZKNSNotificationView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		017E1A5C1EB42AF700CC8D84 /* ZKNSNotificationViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 017E1A741EB42AF700CC8D84 /* Build configuration list for PBXNativeTarget "ZKNSNotificationViewTests" */;
+			buildPhases = (
+				017E1A591EB42AF700CC8D84 /* Sources */,
+				017E1A5A1EB42AF700CC8D84 /* Frameworks */,
+				017E1A5B1EB42AF700CC8D84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				017E1A5F1EB42AF700CC8D84 /* PBXTargetDependency */,
+			);
+			name = ZKNSNotificationViewTests;
+			productName = ZKNSNotificationViewTests;
+			productReference = 017E1A5D1EB42AF700CC8D84 /* ZKNSNotificationViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		017E1A671EB42AF700CC8D84 /* ZKNSNotificationViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 017E1A771EB42AF700CC8D84 /* Build configuration list for PBXNativeTarget "ZKNSNotificationViewUITests" */;
+			buildPhases = (
+				017E1A641EB42AF700CC8D84 /* Sources */,
+				017E1A651EB42AF700CC8D84 /* Frameworks */,
+				017E1A661EB42AF700CC8D84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				017E1A6A1EB42AF700CC8D84 /* PBXTargetDependency */,
+			);
+			name = ZKNSNotificationViewUITests;
+			productName = ZKNSNotificationViewUITests;
+			productReference = 017E1A681EB42AF700CC8D84 /* ZKNSNotificationViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		017E1A3C1EB42AF600CC8D84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = mosaic;
+				TargetAttributes = {
+					017E1A431EB42AF600CC8D84 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 3U4L4TMXU6;
+						ProvisioningStyle = Automatic;
+					};
+					017E1A5C1EB42AF700CC8D84 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 3U4L4TMXU6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 017E1A431EB42AF600CC8D84;
+					};
+					017E1A671EB42AF700CC8D84 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 3U4L4TMXU6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 017E1A431EB42AF600CC8D84;
+					};
+				};
+			};
+			buildConfigurationList = 017E1A3F1EB42AF600CC8D84 /* Build configuration list for PBXProject "ZKNSNotificationView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 017E1A3B1EB42AF600CC8D84;
+			productRefGroup = 017E1A451EB42AF600CC8D84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				017E1A431EB42AF600CC8D84 /* ZKNSNotificationView */,
+				017E1A5C1EB42AF700CC8D84 /* ZKNSNotificationViewTests */,
+				017E1A671EB42AF700CC8D84 /* ZKNSNotificationViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		017E1A421EB42AF600CC8D84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				011182F51EB81DFC0079DDD0 /* Readme.md in Resources */,
+				017E1A571EB42AF700CC8D84 /* LaunchScreen.storyboard in Resources */,
+				017E1A541EB42AF700CC8D84 /* Assets.xcassets in Resources */,
+				017E1A841EB4871800CC8D84 /* APP.png in Resources */,
+				017E1A521EB42AF700CC8D84 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		017E1A5B1EB42AF700CC8D84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		017E1A661EB42AF700CC8D84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		017E1A401EB42AF600CC8D84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				011182FD1EB81EDF0079DDD0 /* ZKNotificationView.m in Sources */,
+				017E1A4F1EB42AF700CC8D84 /* ViewController.m in Sources */,
+				017E1A4C1EB42AF700CC8D84 /* AppDelegate.m in Sources */,
+				011182FC1EB81EDF0079DDD0 /* UIColor+ZKColor.m in Sources */,
+				5C6985061EB4BE07008B02BE /* ZKViewController.m in Sources */,
+				017E1A491EB42AF700CC8D84 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		017E1A591EB42AF700CC8D84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				017E1A621EB42AF700CC8D84 /* ZKNSNotificationViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		017E1A641EB42AF700CC8D84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				017E1A6D1EB42AF700CC8D84 /* ZKNSNotificationViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		017E1A5F1EB42AF700CC8D84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 017E1A431EB42AF600CC8D84 /* ZKNSNotificationView */;
+			targetProxy = 017E1A5E1EB42AF700CC8D84 /* PBXContainerItemProxy */;
+		};
+		017E1A6A1EB42AF700CC8D84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 017E1A431EB42AF600CC8D84 /* ZKNSNotificationView */;
+			targetProxy = 017E1A691EB42AF700CC8D84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		017E1A501EB42AF700CC8D84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				017E1A511EB42AF700CC8D84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		017E1A551EB42AF700CC8D84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				017E1A561EB42AF700CC8D84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		017E1A6F1EB42AF700CC8D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		017E1A701EB42AF700CC8D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		017E1A721EB42AF700CC8D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3U4L4TMXU6;
+				INFOPLIST_FILE = ZKNSNotificationView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mosaichk.ZKNSNotificationView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		017E1A731EB42AF700CC8D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3U4L4TMXU6;
+				INFOPLIST_FILE = ZKNSNotificationView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mosaichk.ZKNSNotificationView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		017E1A751EB42AF700CC8D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3U4L4TMXU6;
+				INFOPLIST_FILE = ZKNSNotificationViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mosaichk.ZKNSNotificationViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZKNSNotificationView.app/ZKNSNotificationView";
+			};
+			name = Debug;
+		};
+		017E1A761EB42AF700CC8D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3U4L4TMXU6;
+				INFOPLIST_FILE = ZKNSNotificationViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mosaichk.ZKNSNotificationViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZKNSNotificationView.app/ZKNSNotificationView";
+			};
+			name = Release;
+		};
+		017E1A781EB42AF700CC8D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3U4L4TMXU6;
+				INFOPLIST_FILE = ZKNSNotificationViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mosaichk.ZKNSNotificationViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZKNSNotificationView;
+			};
+			name = Debug;
+		};
+		017E1A791EB42AF700CC8D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3U4L4TMXU6;
+				INFOPLIST_FILE = ZKNSNotificationViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mosaichk.ZKNSNotificationViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZKNSNotificationView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		017E1A3F1EB42AF600CC8D84 /* Build configuration list for PBXProject "ZKNSNotificationView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				017E1A6F1EB42AF700CC8D84 /* Debug */,
+				017E1A701EB42AF700CC8D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		017E1A711EB42AF700CC8D84 /* Build configuration list for PBXNativeTarget "ZKNSNotificationView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				017E1A721EB42AF700CC8D84 /* Debug */,
+				017E1A731EB42AF700CC8D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		017E1A741EB42AF700CC8D84 /* Build configuration list for PBXNativeTarget "ZKNSNotificationViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				017E1A751EB42AF700CC8D84 /* Debug */,
+				017E1A761EB42AF700CC8D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		017E1A771EB42AF700CC8D84 /* Build configuration list for PBXNativeTarget "ZKNSNotificationViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				017E1A781EB42AF700CC8D84 /* Debug */,
+				017E1A791EB42AF700CC8D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 017E1A3C1EB42AF600CC8D84 /* Project object */;
+}
