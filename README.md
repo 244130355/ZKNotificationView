@@ -1,2 +1,2 @@
 # ZKNotificationView
-this is a demo
+全局提示框，横幅提示
